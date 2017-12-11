@@ -6,48 +6,61 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link href="https://fonts.googleapis.com/css?family=Dosis|Montserrat" rel="stylesheet">
-  <link rel="shortcut icon" type="image/x-icon" href="assets/images/icons/favicon.ico">
-  
+  <link rel="shortcut icon" type="image/x-icon" href="assets/images/icons/favicon.ico">  
   <link rel="stylesheet" href="assets/images/icons/icomoon/style.css">
   <link rel="stylesheet" href="css/main.css">
   <title>Mi Web Responsive</title>
 </head>
 
 <body>
+  <!--Container de Grid System -->
   <div class="container">
 
+    <!--Primera Fila:HEADER-->
     <div class="row all-width">
-      <div class="column">
-        <header>
 
+      <!--Header - Una sóla Columna -->
+      <div class="column">
+        <!--HEADER-->
+        <header>
+          <!--Logo-->
           <div class="header-logo">
             <figure>
               <img src="assets/images/logo-viajes.png" alt="#">
             </figure>
           </div>
+          <!--Fin Logo-->
 
-          <div class="column">
+          <!--Section Lista de Títulos-->
+          <div class="column delete-nav">
             <nav>
               <h2>Home</h2>
               <h2>About</h2>
               <h2>Services</h2>
               <h2>Contact</h2>
             </nav>
+            <span class="icon-menu"></span>
           </div>
+          <!--Fin Lista de Títulos-->
         </header>
+        <!--FIN HEADER-->
       </div>
-    </div>
+      <!--FIN: Header - Una sóla Columna -->
 
-    <!-- HOME -->
+    </div>
+    <!--Fin Primera Fila: HEADER-->
+
+    <!--Segunda Fila: HOME -->
     <div class="row all-width">
       <div class="column bg-home">
       </div>
     </div>
-    <!-- FIN HOME -->
+    <!-- Fin - Segunda Fila: HOME -->
 
 
-
+    <!--Tercera Fila: Sección 02 Columnas-->
     <div class="row two-columns">
+      <!--Section Nosotros-->
       <div class="column">
         <section class="section-we">
           <h2>What We Do</h2>
@@ -57,6 +70,9 @@
           <a href="#">Call to Action</a>
         </section>
       </div>
+      <!--Fin Section Nosotros -->
+
+      <!--Section Contac Us-->
       <div class="column">
         <section class="section-contact">
           <h2>Contact Us</h2>
@@ -67,10 +83,13 @@
           <a id="email" href="#">name@example.com</a>
         </section>
       </div>
+      <!--Fin Section US-->
     </div>
+    <!--Fin Tercera Fila: Sección de 02 Columnas-->
 
-    <!--Cards-->
+    <!--Cuarta Fila: Sección 03 columnas - Cards-->
     <div class="row three-columns">
+      <!--Card 01 - MacchuPicchu-->
       <div class="column card">
         <section class="card">
           <figure>
@@ -86,7 +105,10 @@
           </div>
         </section>
       </div>
-      <div class="column">
+      <!--Fin Card 01-->
+
+      <!--Card 02 - Paris-->
+      <div class="column card">
         <section class="card">
           <figure>
             <img class="card-2" src="assets/images/cards/c2.jpg" alt="">
@@ -101,7 +123,10 @@
           </div>
         </section>
       </div>
-      <div class="column">
+      <!--Fin Card 02-->
+
+      <!--Card 03 - Rio de Janeiro-->
+      <div class="column card">
         <section class="card">
           <figure>
             <img class="card-2" src="assets/images/cards/c3.jpg" alt="image-card">
@@ -119,10 +144,11 @@
           </div>
         </section>
       </div>
+      <!--Fin Card 03-->
     </div>
-    <!--Fin Cards-->
+    <!--Fin Cuarta Fila: Section 03 columnas - Cards-->
 
-    <!--Footer-->
+    <!--Quinta Fila: Footer-->
     <div class="row all-width">
       <div class="column">
         <footer>
@@ -130,8 +156,10 @@
         </footer>
       </div>
     </div>
-    <!--Fin Footer-->
+    <!--Fin Quinta Fila: Footer-->
   </div>
+  <!--FIN  Grid System -->
+
 </body>
 
 </html>

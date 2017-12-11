@@ -1,9 +1,11 @@
+/*CLASES REUTILIZABLES*/
 *{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   font-family: 'Montserrat', sans-serif;
 }
+
 h4, p, a {
   font-family: 'Dosis', sans-serif;
   font-size: 17px;
@@ -28,159 +30,21 @@ h4, p, a {
   margin-right: 2%;
   float: left;
 }
-/*.row::before {
-  content:'';
-  display: table;
-  clear: both;
-}*/
-
-/* Grid */
-/*@media (min-width: 0px) and (max-width: 767px) {
-  [class*='col-'] {
-    
-  }
-  
-  .col-xs-1 {
-    width: 8.33333333%;
-  }
-  
-  .col-xs-2 {
-    width: 16.66666667%;
-  }
-  
-  .col-xs-3 {
-    width: 25%;
-  }
-  
-  .col-xs-4 {
-    width: 33.33333333%;
-  }
-  
-  .col-xs-5 {
-    width: 41.66666667%;
-  }
-  
-  .col-xs-6 {
-    width: 50%;
-  }
-  
-  .col-xs-7 {
-    width: 58.33333333%;
-  }
-  
-  .col-xs-8 {
-    width: 66.66666667%;
-  }
-  
-  .col-xs-9 {
-    width: 75%;
-  }
-  
-  .col-xs-10 {
-    width: 83.33333333%;
-  }
-  
-  .col-xs-11 {
-    width: 91.66666667%;
-  }
-  
-  .col-xs-12 {
-    width: 100%;
-  }
-  
-  .col-xs-offset-1 {
-    width: 8.33333333%;
-  }
-  
-  .col-xs-offset-2 {
-    width: 16.66666667%;
-  }
-  
-  .col-xs-offset-3 {
-    width: 25%;
-  }
-  
-  .col-xs-offset-4 {
-    width: 33.33333333%;
-  }
-  
-  .col-xs-offset-5 {
-    width: 41.66666667%;
-  }
-  
-  .col-xs-offset-6 {
-    width: 50%;
-  }
-  
-  .col-xs-offset-7 {
-    width: 58.33333333%;
-  }
-  
-  .col-xs-offset-8 {
-    width: 66.66666667%;
-  }
-  
-  .col-xs-offset-9 {
-    width: 75%;
-  }
-  
-  .col-xs-offset-10 {
-    width: 83.33333333%;
-  }
-  
-  .col-xs-offset-11 {
-    width: 91.66666667%;
-  }
-  
-  .col-xs-offset-12 {
-    width: 100%;
-  }  
-
-  ul li {
-    visibility: hidden;
-    list-style: none;
-  }
-  
-}*/
-
-/*[class*='col-']{
-  color: #fff;
-  font-family: sans-serif;
-  font-size: 14px;
-  font-weight: 700;
-  height: 300px;
-  text-align: center;
-}
-*/
 
 
-/*Una Columna*/
+/*UNA COLUMNA*/
 .all-width {
   width: 100%;
   background-size: cover;
   margin: 0;
 }
 
-/*Dos columnnas*/
-.two-columns .column{
-  width: 49%;
-}
 
-.two-columns .column:nth-child(2n) {
-  margin-right: 0;
-}
 
-/*TRES COLUMNAS*/
-.three-columns .column {
-  width: 32%;
-}
 
-.three-columns .column:nth-child(3n) {
-  margin-right: 0;  
-}
 
-/*clases específicas*/
-/*Columna total del header*/
+/*CLASES ESPECÍFICAS*/
+/*HEADER*/
 .all-width .column {
   background-color: #07417a;
   width: 100%;
@@ -189,6 +53,7 @@ h4, p, a {
 div .header-logo {
   display: inline-flex;
 }
+
 nav {
   display: inline-flex;
   text-transform: uppercase;
@@ -196,7 +61,6 @@ nav {
   float: right;
   margin-right: 5%;
 }
-
 
 h1, nav h2{
   color: #ffffff;
@@ -212,11 +76,10 @@ header{
 header h2 {
   margin-right: 5%;
 }
+/*FIN-HEADER*/
 
 
-
-
-/*Home*/
+/*HOME*/
 .all-width .bg-home {
   background-image: url(../assets/images/fondo1.jpeg);
   background-repeat: no-repeat;
@@ -224,9 +87,10 @@ header h2 {
   width: 100%;
   height: 400px;
 }
+/*FIN-HOME*/
 
 
-/*Nosotros*/
+/*NOSOTROS*/
 .section-we {
   padding: 2em;
 }
@@ -244,9 +108,10 @@ header h2 {
   border-radius: 15%;
   font-weight: 700;
 }
+/*FIN-NOSOTROS*/
 
 
-/*Contactos*/
+/*CONTACTOS*/
 .section-contact {
   padding: 2em;
 }
@@ -254,9 +119,10 @@ header h2 {
 .section-contact h2 {
   line-height: 3em;
 }
+/*FIN-CONTACTOS*/
 
 
-/*Card*/
+/*CARDS*/
 .card {
   line-height: 3em;
   padding: 2em;
@@ -280,6 +146,7 @@ header h2 {
 .card p {
   margin-bottom: 10%;
 }
+/*FIN-CARDS*/
 
 
 /*FOOTER*/
@@ -288,3 +155,77 @@ footer p {
   color: #fff;
   padding: 2em;
 }
+/*FIN-FOOTER*/
+
+
+/*GRID SYSTEM*/
+/*SMALL GRID*/
+@media (min-width: 0px) and (max-width: 480px) {
+  .row .column {
+    width: 100%;
+  }
+
+  .column {
+    margin-bottom: 5%;
+  } 
+
+  .delete-nav nav{
+    display: none;
+  }
+
+  span {
+    color: #fff;
+    border: 1px solid #fff;
+    float: right;
+    box-sizing: border-box;
+    padding: 0.5em;    
+    transform: translateY(-100%);
+  }
+  
+  .header-logo figure img {
+    height: 30px;
+  }
+
+  .row .bg-home {
+    background-size: contain;
+    background-color: white;
+    margin-bottom: -12em;
+    margin-top: -2em;
+  }
+
+  .column header {
+    margin-top: 3%;
+  }
+  .row.colum header {
+    
+  }
+  
+}
+
+/*MEDIUM GRID*/
+@media (min-width: 768px) {
+
+}
+
+/*LARGE GRID*/
+@media (min-width: 1024px) {
+  /*DOS COLUMNAS*/
+.two-columns .column{
+  width: 49%;
+}
+
+.two-columns .column:nth-child(2n) {
+  margin-right: 0;
+}
+
+
+/*TRES COLUMNAS*/
+.three-columns .column {
+  width: 32%;
+}
+
+.three-columns .column:nth-child(3n) {
+  margin-right: 0;  
+}
+}
+  
