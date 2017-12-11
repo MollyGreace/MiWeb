@@ -126,6 +126,7 @@ header h2 {
 .card {
   line-height: 3em;
   padding: 2em;
+  height: -webkit-fill-available;
 }
 
 .card a {
