@@ -68,6 +68,11 @@ h1, nav h2{
   margin-left: 55%; */
 }
 
+nav h2:hover {
+  color: turquoise;
+  cursor: pointer;
+}
+
 header{
   /* display: inline-block; */
   margin: 2% 5%;
