@@ -19,6 +19,6 @@ Se muestra una Web Responsive. Apta también para Móviles.
 * En la carpeta `assets` encontramos la carpeta: `images`, dentro tenemos 02 carpetas de nombre  _cards_: donde estàn las imàgenes de la sección 'Cards' y otra llamada _icons_: donde se encuentran los íconos de la página y 02 archivos de nombre: logo-viajes.png, fondo1.png.
 * Se utiliza dos fuentes de google-fonts: 'Montserrat', 'Dosis'.
 
-## Author
+## Realizado por:
 
-__Molly Siesquén__
+__Molly Siesquén.__
