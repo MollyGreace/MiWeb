@@ -160,7 +160,7 @@ footer p {
 
 /*GRID SYSTEM*/
 /*SMALL GRID*/
-@media (min-width: 0px) and (max-width: 480px) {
+@media (min-width: 0px) and (max-width: 767px) {
   .row .column {
     width: 100%;
   }
@@ -197,35 +197,46 @@ footer p {
     margin-top: 3%;
   }
   .row.colum header {
-    
+
   }
   
 }
 
 /*MEDIUM GRID*/
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 1023px) {
+  .delete-span span{
+    display: none;
+  }
+
+  nav h2 {
+    font-size: 15px;
+  }
 
 }
 
 /*LARGE GRID*/
 @media (min-width: 1024px) {
   /*DOS COLUMNAS*/
-.two-columns .column{
-  width: 49%;
-}
+  .delete-span span{
+    display: none;
+  }
+    
+  .two-columns .column{
+    width: 49%;
+  }
 
-.two-columns .column:nth-child(2n) {
-  margin-right: 0;
-}
+  .two-columns .column:nth-child(2n) {
+    margin-right: 0;
+  }
 
 
-/*TRES COLUMNAS*/
-.three-columns .column {
-  width: 32%;
-}
+  /*TRES COLUMNAS*/
+  .three-columns .column {
+    width: 32%;
+  }
 
-.three-columns .column:nth-child(3n) {
-  margin-right: 0;  
-}
+  .three-columns .column:nth-child(3n) {
+    margin-right: 0;  
+  }
 }
   
