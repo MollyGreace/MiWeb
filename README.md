@@ -1,6 +1,8 @@
 # Mi Web Responsive Design
  Reto de Código del Sprint 03. Se muestra una Web Responsive(Apta para Móviles) usando Grid System.
  
+ ![Mi web](https://user-images.githubusercontent.com/32301249/36387802-f0c36e08-1567-11e8-8aaa-6eabfe047a67.png)
+ 
  
  
  ## Empresa
