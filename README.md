@@ -1,6 +1,14 @@
 # Mi Web Responsive Design
-Se muestra una Web Responsive. Apta también para Móviles.
-  * Track: Common Core.
+ Reto de Código del Sprint 03. Se muestra una Web Responsive(Apta para Móviles) usando Grid System.
+ 
+ 
+ 
+ ###Empresa
+ Desarrollado para Laboratoria.
+ 
+ 
+ *****
+  * Track: Common Core.
   * Curso: Crea tu propia red social.
   * Unidad: La web desde un móvil.
 *****
